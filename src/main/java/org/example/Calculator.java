@@ -76,7 +76,7 @@ public class Calculator {
             h += p_i.get(i + 1);
         }
         drawChart.addChart(x_i.get(x_i.size() - 1) + " < x", x_i.get(x_i.size() - 1), x_i.get(x_i.size() - 1) + 1, h);
-        drawChart.plot("EmpiricFunc");
+        drawChart.plot("Empiric");
     }
 
     public void drawFrequencyPolygon() {
@@ -93,7 +93,7 @@ public class Calculator {
 
             x_start += getH();
         }
-        frequencyPolygon.plotPolygon( "FrequencyPolygon");
+        frequencyPolygon.plotPolygon( "Polygon");
     }
 
     public void drawHistogram(int size) {

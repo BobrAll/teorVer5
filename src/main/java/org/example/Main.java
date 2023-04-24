@@ -25,6 +25,5 @@ public class Main {
         calculator.drawEmpiricFunction();
         calculator.drawFrequencyPolygon();
         calculator.drawHistogram(nums.length);
-
     }
 }
