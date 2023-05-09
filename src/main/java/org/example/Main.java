@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class Main {
-    private static final int DATA_SIZE = 20;
+    public static final int DATA_SIZE = 20;
 
     public static void main(String[] args) throws FileNotFoundException {
         double[] nums = new double[DATA_SIZE];

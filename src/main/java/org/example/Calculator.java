@@ -1,7 +1,6 @@
 package org.example;
 
 import java.util.*;
-
 public class Calculator {
     double[] nums;
     double expectedValue, dispersion, scope;
@@ -25,7 +24,7 @@ public class Calculator {
         System.out.printf("Размах выборки: %.2f\n", scope);
         System.out.printf("Мат. ожидание: %.2f\n", expectedValue);
         System.out.printf("Дисперсия: %.2f\n", dispersion);
-        System.out.printf("Cреднеквадратическое отклонение: %.2f\n", Math.sqrt(dispersion));
+        System.out.printf("Cреднеквадратическое отклонение: %.2f\n", Math.sqrt(Main.DATA_SIZE * dispersion / (Main.DATA_SIZE - 1)));
     }
 
     private double calcScope() {
